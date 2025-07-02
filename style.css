@@ -68,6 +68,7 @@ section {
     font-size: 1.7rem;
     color: var(--text-color);
     margin-left: 4rem;
+
 }
 
 
@@ -92,10 +93,12 @@ section {
     align-items: center;
 }
 
+
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
 }
+
 
 .home-content h3:nth-of-type(2) {
     margin-bottom: 2rem;
@@ -502,4 +505,39 @@ span {
 .icons {
     width: 4rem;
     height: 4rem;
+}
+
+/* 
+.multiple-text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(30, end) infinite alternate;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.animated-text {
+    display: inline-block;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+*/
+
+.multiple-text {
+    color: var(--main-color);
+    /* Or just a color like #FFC0CB */
+    font-size: 3.2rem;
+    font-weight: 700;
+    white-space: nowrap;
 }
